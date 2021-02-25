@@ -1,32 +1,40 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    float speed = 10f;
-    public float currentRotationSpeed;
+    public float speed = 10f;
     public float ControllerRotationSpeed = 0f;
     Vector3 MoveAxis = new Vector3(),  PrevAxis;
     public bool isRotating = false;
 
-    Rigidbody playermove;
+    public AudioClip Whooshsound;
+    float whooshSoundmintime = 5f, currentWhooshRotate = 0f;
 
-    float rotateMinThreadshold = 5f, rotateStartThreadshold = 10f;
+    AudioSource AudSource;
+    Rigidbody playermove;
+    Animator playeranimator;
+
+    float rotateMinThreadshold = 35f, rotateStartThreadshold = 50f;
 
     // Start is called before the first frame update
     void Start()
     {
         playermove = GetComponent<Rigidbody>();
         StartCoroutine(rotationRots());
+        AudSource = GetComponent<AudioSource>();
+        playeranimator = GetComponent<Animator>();
+        AudSource.clip = Whooshsound;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        playermove.AddForce(MoveAxis,ForceMode.VelocityChange);
-
+        playermove.AddForce(MoveAxis * speed,ForceMode.VelocityChange);
+        Animset();
         //isRotatingは回転中か否かで次のステートが決定.
         if (isRotating && Mathf.Abs(ControllerRotationSpeed) < rotateMinThreadshold) {
             isRotating = false;
@@ -42,7 +50,19 @@ public class PlayerMovement : MonoBehaviour
                 (Mathf.Sign(ControllerRotationSpeed) * (Mathf.Abs(ControllerRotationSpeed) - rotateMinThreadshold)
                 * 2f, Vector3.up) * transform.forward;
             Quaternion FacingRotation = Quaternion.LookRotation(rotatevec, Vector3.up);
+
             playermove.MoveRotation(FacingRotation);
+            if (360f < currentWhooshRotate)
+            {
+                AudSource.outputAudioMixerGroup.audioMixer.SetFloat
+                    ("PitchShifter", Mathf.Pow(Mathf.Clamp(Mathf.Abs(ControllerRotationSpeed), 0f, Mathf.Infinity) / rotateStartThreadshold, 1/2f) / 8f);
+                AudSource.pitch = 1f + 5f
+                    * Mathf.Pow(Mathf.Clamp(Mathf.Abs(ControllerRotationSpeed), 0f, Mathf.Infinity) / rotateStartThreadshold,2f);
+                if(!AudSource.isPlaying)
+                AudSource.Play();
+                currentWhooshRotate = 0f;
+            }
+            currentWhooshRotate += Mathf.Abs(ControllerRotationSpeed);
         }
         else
         {
@@ -77,5 +97,10 @@ public class PlayerMovement : MonoBehaviour
 
             yield return null;
         }
+    }
+
+    void Animset() {
+        playeranimator.SetBool("isRotating", isRotating);
+        playeranimator.SetFloat("speed",playermove.velocity.magnitude);
     }
 }
