@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - FxTemporaire
+  - explod
+  - system
+  - enemyexpld
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - 
   - 
   - Character
-  - 
+  - DeadBody
   - 
   - 
   - 
