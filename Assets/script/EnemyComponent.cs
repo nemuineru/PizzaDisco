@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemyComponent : MonoBehaviour
 {
-<<<<<<< HEAD
     public float remaintime = 45f;
     public float speed = 10f;
     public int Health = 1;
@@ -59,43 +58,19 @@ public class EnemyComponent : MonoBehaviour
     {
         sys = GameObject.FindGameObjectWithTag("system").GetComponent<Systems>();
     }
-=======
-    public int Health = 1;
-    public GameObject[] DeathEffect;
-    
-    float invisibletime = 0.5f, currentinvistime = 0f ;
-    Rigidbody rigidbodys;
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (currentinvistime > invisibletime && other.gameObject.tag == "Player")
-        {
-            Health += -1;
-            currentinvistime = Time.deltaTime;
-        }
-    }
-
->>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
 
     // Start is called before the first frame update
     void Start()
     {
-<<<<<<< HEAD
         Player = GameObject.FindGameObjectWithTag("Player").transform.root.gameObject;   
         rigidbodys = GetComponent<Rigidbody>();
         Vector3 randVec = new Vector3(Random.Range(-1f, 1f), 0f, Random.Range(-1f, 1f)).normalized * speed;
         rigidbodys.AddForce(randVec, ForceMode.VelocityChange);
-=======
-        rigidbodys = GetComponent<Rigidbody>();
-        Vector3 randVec = new Vector3(Random.Range(-1f,1f),0f, Random.Range(-1f, 1f)).normalized * 10f;
-        rigidbodys.AddForce(randVec,ForceMode.VelocityChange);
->>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-<<<<<<< HEAD
         if (sys.RestTime > 0f)
         {
             if (isReallyEnemy)
@@ -139,16 +114,3 @@ public class EnemyComponent : MonoBehaviour
         }
     }
 }
-=======
-        currentinvistime += Time.fixedDeltaTime;
-        if (Health <= 0) {
-            foreach (GameObject dEffect in DeathEffect) {
-                if (dEffect != null) {
-                    Instantiate(dEffect,transform.position,Quaternion.identity);
-                }
-            }
-            Destroy(gameObject);
-        }
-    }
-}
->>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc

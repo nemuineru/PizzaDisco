@@ -54,7 +54,7 @@ public class Systems : MonoBehaviour
             if (RestTime > 0f)
             {
                 CurrentTime += Time.deltaTime;
-                CurrentMaxCharacterNum -= Time.deltaTime;
+                CurrentMaxCharacterNum -= Time.deltaTime * 5f;
                 CurrentMaxCharacterNum = Mathf.Clamp(CurrentMaxCharacterNum, FirstMaxCharacterNum, Mathf.Infinity);
                 TxtTime.text = (Mathf.Ceil(RestTime * 100) / 100).ToString("f1");
                 TxtScore.text = Score.ToString();
@@ -102,6 +102,7 @@ public class Systems : MonoBehaviour
                     resultUI.SetActive(true);
                     maincams.enabled = false;
                     resultcam.enabled = true;
+                    naichilab.RankingLoader.Instance.SendScoreAndShowRanking(Score);
                     resulttxts.text = Score + "点分の美味しいピザを作ったよ！";
                     ResultUI.text = "ピザの美味しさ : " + Score + "pts." + "\n"
                         + "切った具材 : " + KillNum + "個" + "\n"

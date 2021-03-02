@@ -32,7 +32,7 @@ public class ItemScript : MonoBehaviour
                     }
                 case ItemType.EnemyFrenzy:
                     {
-                        sys.CurrentMaxCharacterNum += 50;
+                        sys.CurrentMaxCharacterNum += 30;
                         break;
                     }
                 case ItemType.MorePowerful:
