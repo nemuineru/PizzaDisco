@@ -5,6 +5,7 @@ using UnityEngine;
 public class SimpleInstantiator : MonoBehaviour
 {
     //キャラ生成装置.
+<<<<<<< HEAD
     public Systems sys;
     public GameObject[] InstObj;
     public GameObject[] InstItem;
@@ -29,10 +30,19 @@ public class SimpleInstantiator : MonoBehaviour
 
     void Start()
     {
+=======
+    public GameObject InstObj;
+    public float spawntime = 3f;
+    // Start is called before the first frame update
+    void Start()
+    {
+        InvokeRepeating("InstEnemy", 0f, spawntime);
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     }
 
     void InstEnemy()
     {
+<<<<<<< HEAD
         float randinstrange = Random.Range(0f,range);
         float randRotate = Random.Range(0f, 360f);
         Vector3 instPos = transform.position + Quaternion.AngleAxis(randRotate, Vector3.up) * Vector3.forward * randinstrange ;
@@ -91,5 +101,17 @@ public class SimpleInstantiator : MonoBehaviour
                              (new Vector3(0.5f - Random.value, 0.5f - Random.value, 0.5f - Random.value).normalized * 360f));
             }
         }
+=======
+        if (InstObj)
+        {
+            Instantiate(InstObj, transform.position, Quaternion.identity);
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     }
 }

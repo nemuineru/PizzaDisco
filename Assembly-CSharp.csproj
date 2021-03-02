@@ -24,7 +24,11 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
+<<<<<<< HEAD
     <DefineConstants>DEBUG;TRACE;UNITY_2019_4_18;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+=======
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_18;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -50,7 +54,11 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
+<<<<<<< HEAD
     <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+=======
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <UnityVersion>2019.4.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -62,6 +70,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -95,6 +104,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <Compile Include="Assets\imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo.cs" />
     <Compile Include="Assets\imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
@@ -109,6 +120,7 @@
     <Compile Include="Assets\imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_ShurikenThreadFix.cs" />
     <Compile Include="Assets\imported assets\JMO Assets\Cartoon FX (legacy)\Spawn System\CFX_SpawnSystem.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\script\DeadbodyComponent.cs" />
     <Compile Include="Assets\script\EnemyComponent.cs" />
     <Compile Include="Assets\script\ItemScript.cs" />
@@ -120,12 +132,20 @@
     <Compile Include="Assets\script\fortweet.cs" />
     <None Include="Assets\sprite\japanese.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+=======
+    <Compile Include="Assets\script\EnemyComponent.cs" />
+    <Compile Include="Assets\script\PlayerMovement.cs" />
+    <Compile Include="Assets\script\SimpleInstantiator.cs" />
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Triplanar Sampling.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Dissolve.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS Outline.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_Behind_SM2.shader" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_VertexDisplacement.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Outline.txt" />
     <None Include="Assets\imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Glow.shader" />
@@ -135,13 +155,19 @@
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_PBS_Main.cginc" />
     <None Include="Assets\imported assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFXM_MobileParticleAB_Alpha8.shader" />
     <None Include="Assets\imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_DepthTexture.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Variants Base\TCP2_Mobile_Specular_OutlineBlending.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Vertex Color Albedo.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_MatCap.txt" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\HSV.shader" />
     <None Include="Assets\imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Old School.shader" />
@@ -159,7 +185,10 @@
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_Default.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Snow Accumulation.shader" />
     <None Include="Assets\imported assets\Particle Ribbon by Moonflower Carnivore\Shaders\Particle Alpha Blend HDR.shader" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\TCP2_OutlineOnly Blended.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_NdotL Stylization.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Water.txt" />
@@ -183,6 +212,7 @@
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Realistic.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_Include.cginc" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_AlbedoHSV.txt" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_Behind.shader" />
@@ -197,6 +227,15 @@
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Subsurface Scattering.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+=======
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_Behind.shader" />
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Normal Mapping.txt" />
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Blended Outline.shader" />
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS.shader" />
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_VertExmotion.txt" />
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline.shader" />
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Subsurface Scattering.shader" />
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Vertical Fog.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Water WindWaker2.shader" />
@@ -205,7 +244,10 @@
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_Stencil.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Ramp Shading.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_LWRP.txt" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS Outline Blended.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Sketch.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_SM2.shader" />
@@ -222,7 +264,10 @@
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Sketch.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_PBS_ShadowMeta.shader" />
     <None Include="Assets\imported assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\TCP2_Mobile.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Lava Cartoon.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Outline Behind.shader" />
@@ -231,6 +276,7 @@
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Hybrid\TCP2 Hybrid URP Support.cginc" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS (Specular).shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Variants Base\TCP2_Mobile_Outline.shader" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Variants Base\TCP2_Desktop_Specular_Outline.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Rim Lighting.txt" />
@@ -239,12 +285,22 @@
     <None Include="Assets\imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Subsurface Scattering.txt" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+=======
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Variants Base\TCP2_Desktop_Specular_Outline.shader" />
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Rim Lighting.txt" />
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Variants Base\TCP2_Mobile_Specular_Outline.shader" />
+    <None Include="Assets\imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
+    <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Subsurface Scattering.txt" />
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_NoTile Sampling.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_PBS_BRDF.cginc" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Variants Base\TCP2_Desktop_Specular.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\TCP2_OutlineOnly.shader" />
     <None Include="Assets\imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Water WindWaker.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_CustomAmbient.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Wind Animation.shader" />
@@ -253,8 +309,11 @@
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Hybrid\TCP2 Hybrid Shader.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Specular.txt" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Detail Texture.shader" />
+<<<<<<< HEAD
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shaders\Hybrid\TCP2 Hybrid Shader Outline.shader" />
     <None Include="Assets\imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Reflection.txt" />
     <Reference Include="UnityEngine">
@@ -263,6 +322,12 @@
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
+=======
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <Reference Include="UnityEngine.AccessibilityModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
@@ -281,6 +346,15 @@
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
+=======
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
@@ -422,9 +496,12 @@
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="UnityEngine.WebGLModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll</HintPath>
     </Reference>
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
     <Reference Include="UnityEngine.WindModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
