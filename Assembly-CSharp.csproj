@@ -821,10 +821,6 @@
       <Project>{8D0DE63C-CB57-C9A5-6334-4BA63A5FAA35}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
-    <ProjectReference Include="AloneSoft.VeryAnimation.csproj">
-      <Project>{7CA50EE3-DB31-26F2-6FD3-50C7DA42E9D9}</Project>
-      <Name>AloneSoft.VeryAnimation</Name>
-    </ProjectReference>
     <ProjectReference Include="ToonyColorsPro2.Demo.csproj">
       <Project>{69317801-8D8A-0DFB-A7E4-4BCFAE60F2D1}</Project>
       <Name>ToonyColorsPro2.Demo</Name>
@@ -848,6 +844,10 @@
     <ProjectReference Include="ToonyColorsPro.Editor.csproj">
       <Project>{D64F8DFE-2A2A-E3B8-E50A-6A9328E2E56B}</Project>
       <Name>ToonyColorsPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AloneSoft.VeryAnimation.csproj">
+      <Project>{7CA50EE3-DB31-26F2-6FD3-50C7DA42E9D9}</Project>
+      <Name>AloneSoft.VeryAnimation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
