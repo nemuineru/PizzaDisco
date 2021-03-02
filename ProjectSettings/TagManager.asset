@@ -5,9 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - FxTemporaire
+<<<<<<< HEAD
   - explod
   - system
   - enemyexpld
+=======
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
   layers:
   - Default
   - TransparentFX
@@ -18,7 +21,11 @@ TagManager:
   - 
   - 
   - Character
+<<<<<<< HEAD
   - DeadBody
+=======
+  - 
+>>>>>>> 2fa4ebd4cacf47228710a90b50325da8bcd412fc
   - 
   - 
   - 
